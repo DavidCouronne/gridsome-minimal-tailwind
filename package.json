@@ -1,0 +1,35 @@
+{
+  "private": false,
+  "name": "gridsome-minimal-tailwind",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "gridsome": "^0.7.13",
+    "gridsome-plugin-remark-container": "^0.1.2",
+    "gridsome-plugin-remark-prismjs-all": "^0.3.2",
+    "gridsome-plugin-tailwindcss": "^2.2.36"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^4.2.2",
+    "@vue/cli-service": "^4.2.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.1",
+    "js-yaml": "^3.13.1",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6"
+  }
+}
